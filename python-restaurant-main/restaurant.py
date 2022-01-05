@@ -24,9 +24,9 @@ The class should also contain the following methods:
 
 
 class Table:
-    def __init__(self, table):
+    def __init__(self, diners):
         self.bill = []
-        self.table = table
+        self.diners = diners
 
     def order(self, item: str, price: int, quantity = 1):
         x = 0
@@ -79,4 +79,5 @@ class Table:
         }
 
     def split_bill(self):
+        return round(self.get_subtotal() / self.diners, 2)
 
