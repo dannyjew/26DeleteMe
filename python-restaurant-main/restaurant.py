@@ -28,7 +28,7 @@ class Table:
         self.bill = []
         self.table = table
 
-    def order(self, item: str, price: int, quantity: int):
+    def order(self, item: str, price: int, quantity = 1):
         x = 0
         c = False
         while not c:
@@ -40,11 +40,9 @@ class Table:
                         self.bill[x]['quantity'] += quantity
                         c = True
                     x += 1
-            if c == False:
-                self. bill.append({'item': item, 'price': price, 'quantity': quantity})
+            if not c:
+                self.bill.append({'item': item, 'price': price, 'quantity': quantity})
                 c = True
-
-
 
     def remove(self, item: str, price: int, quantity: int):
         x = 0
@@ -61,7 +59,6 @@ class Table:
             if c == False:
                 c = True
 
-
     def get_subtotal(self):
         total = 0
         if self.bill == []:
@@ -71,7 +68,15 @@ class Table:
                 total += (sub['quantity'] * sub['price'])
         return total
 
-    def get_total(self):
+    def get_total(self, service_charge=0.10):
+        subtotal = self.get_subtotal()
+        service_charge_amount = subtotal * service_charge
+        txt = '£{amount:.2f}'
+        return {
+            'Sub Total': txt.format(amount=subtotal),
+            'Service Charge': txt.format(amount=service_charge_amount),
+            'Total': txt.format(amount=(service_charge_amount + subtotal))
+        }
 
+    def split_bill(self):
 
-    # def split_bill(self):
