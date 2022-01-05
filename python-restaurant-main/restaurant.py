@@ -51,11 +51,5 @@ class Table:
         return float(round(total/self.num_diners, 2))
 
 
-table06 = Table(6)
-table06.order('Food1', 20.00, 3)
-table06.order('Food2', 10.00, 1)
-table06.order('Food3', 3.20, 1)
-print(table06.bill)
-print(table06.get_total())
-print(table06.split_bill())
+
 
