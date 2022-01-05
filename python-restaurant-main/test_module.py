@@ -1,7 +1,6 @@
 import unittest
 from restaurant import Table
 
-
 class UnitTests(unittest.TestCase):
     def setUp(self) -> None:
         self.table02 = Table(2)
