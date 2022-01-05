@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a080fce-bae1-41cc-8e1e-afbd5f489984" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python-restaurant-main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-restaurant-main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-restaurant-main/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-restaurant-main/restaurant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-restaurant-main/test_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-restaurant-main/test_module.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test_module">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RestaurantQuestion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,8 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.test_module" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.restaurant" />
       </list>
     </recent_temporary>
@@ -110,28 +109,28 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1503" height="277" key="GridCell.Tab.0.bottom" timestamp="1641400670681">
+    <state width="1503" height="277" key="GridCell.Tab.0.bottom" timestamp="1641404454691">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1503" height="277" key="GridCell.Tab.0.bottom/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641400670681" />
+    <state width="1503" height="277" key="GridCell.Tab.0.bottom/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641404454691" />
     <state width="1503" height="277" key="GridCell.Tab.0.bottom/-1870.25.1870.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641387626474" />
     <state width="1503" height="277" key="GridCell.Tab.0.bottom/-1871.25.1871.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641389008321" />
-    <state width="1503" height="277" key="GridCell.Tab.0.center" timestamp="1641400670680">
+    <state width="1503" height="277" key="GridCell.Tab.0.center" timestamp="1641404454690">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1503" height="277" key="GridCell.Tab.0.center/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641400670680" />
+    <state width="1503" height="277" key="GridCell.Tab.0.center/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641404454690" />
     <state width="1503" height="277" key="GridCell.Tab.0.center/-1870.25.1870.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641387626473" />
     <state width="1503" height="277" key="GridCell.Tab.0.center/-1871.25.1871.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641389008320" />
-    <state width="1503" height="277" key="GridCell.Tab.0.left" timestamp="1641400670680">
+    <state width="1503" height="277" key="GridCell.Tab.0.left" timestamp="1641404454690">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1503" height="277" key="GridCell.Tab.0.left/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641400670680" />
+    <state width="1503" height="277" key="GridCell.Tab.0.left/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641404454690" />
     <state width="1503" height="277" key="GridCell.Tab.0.left/-1870.25.1870.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641387626472" />
     <state width="1503" height="277" key="GridCell.Tab.0.left/-1871.25.1871.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641389008320" />
-    <state width="1503" height="277" key="GridCell.Tab.0.right" timestamp="1641400670681">
+    <state width="1503" height="277" key="GridCell.Tab.0.right" timestamp="1641404454690">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1503" height="277" key="GridCell.Tab.0.right/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641400670681" />
+    <state width="1503" height="277" key="GridCell.Tab.0.right/-1869.25.1869.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641404454690" />
     <state width="1503" height="277" key="GridCell.Tab.0.right/-1870.25.1870.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641387626473" />
     <state width="1503" height="277" key="GridCell.Tab.0.right/-1871.25.1871.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641389008321" />
   </component>

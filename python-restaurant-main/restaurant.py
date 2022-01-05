@@ -4,37 +4,27 @@ class Table:
         self.bill = []
         self.people = people
 
-    def order(self, item:str, price:int, quantity:int=1 ):
-        menu = {"item": item, "price": price, "quantity": quantity}
-        if not self.bill:
-            self.bill.append(menu)
-        else:
-            for item in self.bill:
-                exist = False
-                # lets check if items already exisit
-                if menu["item"] == item['item'] and menu["price"] == item['price']:
-                    item['quantity'] += menu['quantity']
-                    exist = True
-                if exist:
-                    break
-                else:
-                    self.bill.append(menu)
 
-        return self.bill
+    def order(self, item, price, quantity=1):
 
-    def remove(self, item, price, quantity=1):
-        menu = {"item": item, "price": price, "quantity": quantity}
-        check = False
-        for item in self.bill:
-            if item["item"] == menu['item'] and item["price"] == menu['price']:
-                if ((item['quantity'] - menu["quantity"]) <= 0):
-                    del item
-                    check = False
-                    break # lets come out.
-                else:
-                    item['quantity'] -= menu["quantity"] # otherwise remove quantity
-                    check = True
-        return check
+        for items in self.bill:
+            if items['item'] == item and items['price'] == price:
+                items['quantity'] += quantity
+                return True
+        self.bill.append({'item': item, 'price': price, 'quantity': quantity})
+
+        #return self.bill
+
+    def remove(self, item, price, new_quantity=1):
+        for items in self.bill:
+            if items['item'] == item and items['price'] == price:
+                items['quantity'] -= new_quantity
+                return True
+            elif items['quantity'] == 0:
+                self.bill.remove({'item':item, 'price':price, 'quantity':new_quantity})
+                return True
+            elif items['item'] != item:
+                return False
 
     def get_subtotal(self):
         sub_total = 0
